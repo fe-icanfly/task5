@@ -1,170 +1,200 @@
+<!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8" />
-	<title>task5</title>
-	<link rel="stylesheet"  href="./css/task5.css" />
-</head>
-
-<body>
-	<header class="header">
-		<div><img src="./image/豆瓣图标.jpg" alt="douban-icon">
+	<head>
+		<meta charset="utf-8">
+		<title>任务二：零基础HTML及CSS编码（一）</title>
+		<link rel="stylesheet" type="text/css" href="css/task5.css">
+	</head>
+	<body>
+		<header>
+			 <a href="http://www.baidu.com"target="_blank" class="home">
+			 	<img hidefocus="true" src="images/bd_logo.png" width="270" height="129">
+			 </a>
 		<ul>
 			<li><a href="#">导航链接一</a></li>
 			<li><a href="#">导航链接二</a></li>
 			<li><a href="#">导航链接三</a></li>
 			<li><a href="#">导航链接四</a></li>
 		</ul>
+		</header>
+		<div class="aside">
+			<p class="title">这里以后是一个侧栏，这是侧栏的标题</p>
+			<form action="" method=""> 
+				<div class="form_content">
+					<p>
+						<span class="text">请输入邮箱地址</span>
+						<input type="email" value="这是一个文本输入框">
+					</p>
+					<p class="tips">邮箱地址请按要求格式输入</p>
+					<p>
+						<span class="text">请输入密码</span>
+						<input type="password" value="这是一个文本输入框">
+					</p>
+					<p> 
+						<span class="text">请重复输入密码</span>
+						<input type="password" value="这是一个文本输入框">
+					</p>
+					<p class="tips">密码请为6-16位英文数字</p>
+					 <p> 
+						<span class="text">性别</span>
+						<label><input name="sex" type="radio" value="男"/>男</label>
+						<label><input  name="sex" type="radio" value="女" checked/>女</label>
+					</p>
+					<p>
+						<span class="text">城市</span>
+						<select>
+							<option selected>北京</option>
+							<option>四川</option>
+							<option>黑龙江</option>
+							<option>厦门</option>
+						</select>
+					</p>
+					<p>
+						<span class="text">爱好</span>
+						<label><input type="checkbox" name="interest" value="运动"/>运动</label>
+						<label><input type="checkbox" name="interest" value="艺术"/>艺术</label>
+						<label><input type="checkbox" name="interest" value="科学"/>科学</label>
+					</p>
+					<p>
+						<span class="text">个人描述</span>
+						<textarea name="describe">这是一个多行输入框，输入您的个人描述</textarea>
+					 </p>
+				</div>
+				
+					<input type="submit" value="确定提交"/>
+			</form>
 		</div>
-	</header>
-
-	<div class="main clear">
-		<div class="leftwrapper">
-			<div class="article-box">
-				<h1 class="title">文章一级标题</h1>
-				<h2 class="title">文章二级标记</h2>
-				<h6 class="title">文章作者 文章发表时间</h6>
-				<p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</ br>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，
-				<a href="ife.baidu.com">这里有一个链接链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，</p>
-				<p>这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落.</p>
-				<img src="./image/豆瓣图标.jpg" alt="here is a douban-icon"/>
-				<p>这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落</p>
+		<div class="contanier">
+			<div class="box">
+				<h2>文章一级标题</h2>
+				<h3>文章二级标题</h3>
+				<div class="author_time">
+					<span class="author">文章作者</span>
+					<span class="time">文章发表时间</span>
+				</div>
+				<p>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落。
+				<br/>换行了<br/>
+				这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落。换行了<br/>
+				这是一个很长的段落，<a href="http://ife.baidu.com">当前窗口----百度前端技术学院</a>这是一个很长的段落,这是一个很长的段落，<strong>我是粗体</strong>这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落。<br/><br/>
+				<img src="http://web.img.chuanke.com/dxt/./1409173767_78807.jpeg"><br/><br/>
+				这是一个很长的段落，这是一个很长的段落，这是一个很长的段落,这是一个很长的段落,这是一个很长的段落这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落。换行了<br/>
+				这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落。<strong>我是粗体</strong>这是一个很长的段落，<a href="http://ife.baidu.com" target="_blank">新窗口----百度前端技术学院</a>这是一个很长的段落,这是一个很长的段落，这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落。end.
+				</p>
 			</div>
-			<div class="article-box">
-				<h1 class="title">文章一级标题</h1>
-				<h2 class="title">文章二级标记</h2>
-				<h6 class="title">文章作者 文章发表时间</h6>
-				<p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</ br>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，
-				<a href="ife.baidu.com">这里有一个链接链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，</p>
-				<p>这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落.</p>
-				<img src="./image/豆瓣图标.jpg" alt="here is a douban-icon"/>
-				<ol>
+			<div class="box">
+				<h2>第二篇文章一级标题</h2>
+				<h3>文章二级标题</h3>
+				<div class="author_time">
+					<span class="author">文章作者</span>
+					<span class="time">文章发表时间</span>
+				</div>
+				<p>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落。
+				<br/>换行了<br/>
+				这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落。换行了<br/>
+				这是一个很长的段落，<a href="http://ife.baidu.com">当前窗口----百度前端技术学院</a>这是一个很长的段落,这是一个很长的段落，<strong>我是粗体</strong>这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落。<br/><br/>
+				<img src="http://web.img.chuanke.com/dxt/./1409173767_78807.jpeg"><br/><br/>
+				</p>
+				<ul>
 					<li>列表项目一</li>
 					<li>列表项目二</li>
 					<li>列表项目三</li>
-				</ol>
+				</ul>
 			</div>
-			<div class="image-box">
-				<h1>图片</h1>
-				<div>
-					<span>好看的图片</span>
-					<img src="./image/豆瓣图标.jpg" alt="douban-icon">
-				</div>
-				<div>
-					<span>好看的图片</span>
-					<img src="./image/豆瓣图标.jpg" alt="douban-icon">
-				</div>
-				<div>
-					<span>好看的图片</span>
-					<img src="./image/豆瓣图标.jpg" alt="douban-icon">
-				</div>
-				<div>
-					<span>好看的图片</span>
-					<img src="./image/豆瓣图标.jpg" alt="douban-icon">
-				</div>
-				<div>
-					<span>好看的图片</span>
-					<img src="./image/豆瓣图标.jpg" alt="douban-icon">
-				</div>
-				<div>
-					<span>好看的图片</span>
-					<img src="./image/豆瓣图标.jpg" alt="douban-icon">
-				</div>
-				<div>
-					<span>好看的图片</span>
-					<img src="./image/豆瓣图标.jpg" alt="douban-icon">
-				</div>
-				<div>
-					<span>好看的图片</span>
-					<img src="./image/豆瓣图标.jpg" alt="douban-icon">
-				</div>
-				<div>
-					<span>好看的图片</span>
-					<img src="./image/豆瓣图标.jpg" alt="douban-icon">
-				</div>
-				<div>
-					<span>好看的图片</span>
-					<img src="./image/豆瓣图标.jpg" alt="douban-icon">
-				</div>						
+			<div class="pic_box">
+				<dl>
+					<dt><h2>图片</h2></dt>
+					<dd>
+						<span>好看的图片</span><br/>
+						<img src="http://web.img.chuanke.com/dxt/./1409173767_78807.jpeg"><br/><br/>
+					</dd>
+					<dd>
+						<span>好看的图片</span><br/>
+						<img src="http://web.img.chuanke.com/dxt/./1409173767_78807.jpeg"><br/><br/>
+					</dd>
+					<dd>
+						<span>好看的图片</span><br/>
+						<img src="http://web.img.chuanke.com/dxt/./1409173767_78807.jpeg"><br/><br/>
+					</dd>
+					<dd>
+						<span>好看的图片</span><br/>
+						<img src="http://web.img.chuanke.com/dxt/./1409173767_78807.jpeg"><br/><br/>
+					</dd>
+					<dd>
+						<span>好看的图片</span><br/>
+						<img src="http://web.img.chuanke.com/dxt/./1409173767_78807.jpeg"><br/><br/>
+					</dd>
+					<dd>
+						<span>好看的图片</span><br/>
+						<img src="http://web.img.chuanke.com/dxt/./1409173767_78807.jpeg"><br/><br/>
+					</dd>
+					<dd>
+						<span>好看的图片</span><br/>
+						<img src="http://web.img.chuanke.com/dxt/./1409173767_78807.jpeg"><br/><br/>
+					</dd>
+					<dd>
+						<span>好看的图片</span><br/>
+						<img src="http://web.img.chuanke.com/dxt/./1409173767_78807.jpeg"><br/><br/>
+					</dd>
+					<dd>
+						<span>好看的图片</span><br/>
+						<img src="http://web.img.chuanke.com/dxt/./1409173767_78807.jpeg"><br/><br/>
+					</dd>
+					<dd>
+						<span>好看的图片</span><br/>
+						<img src="http://web.img.chuanke.com/dxt/./1409173767_78807.jpeg"><br/><br/>
+					</dd>
+				</dl>
 			</div>
-			<div class="table-box">
-				<h1 class="title">文章一级标题</h1>
-				<h2 class="title">文章二级标记</h2>
-				<h6 class="title">文章作者 文章发表时间</h6>
+			<div class="table_box">
+				<h2>最后一篇文章一级标题</h2>
+				<h3>文章二级标题</h3>
+				<div class="author_time">
+					<span class="author">文章作者</span>
+					<span class="time">文章发表时间</span>
+				</div>
 				<ol>
 					<li>排名1</li>
 					<li>排名2</li>
 					<li>排名3</li>
 				</ol>
+				下面是个表格，给表格加了一个border="1"好让你看出是一个表格，你们不用写html时不用加
 				<table>
-					<tr class="table-head"><th>表头</th><th>表头</th><th>表头</th></tr>
-					<tr class="table-text"><td>表内容单元格</td><td>表内容单元格</td><td>操作</td></tr>
-					<tr class="table-text"><td>表内容单元格</td><td>表内容单元格</td><td>操作</td></tr>
-					<tr class="table-text"><td>表内容单元格</td><td>表内容单元格</td><td>操作</td></tr>
-					<tr class="table-text"><td>表内容单元格</td><td>表内容单元格</td><td>操作</td></tr>
-					<tr class="table-total"><td>总计</td><td class="table-total-num">1000</td></tr>
+					<tr>
+						<th>表头</th>
+						<th>表头</th>
+						<th>表头</th>
+					</tr>
+					<tr>
+						<td>表内容单元格</td>
+						<td>表内容单元格</td>
+						<td><a href="#">操作</a></td>
+					</tr>
+					<tr>
+						<td>表内容单元格</td>
+						<td>表内容单元格</td>
+						<td><a href="#">操作</a></td>
+					</tr>
+					<tr>
+						<td>表内容单元格</td>
+						<td>表内容单元格</td>
+						<td><a href="#">操作</a></td>
+					</tr>
+					<tr>
+						<td>表内容单元格</td>
+						<td>表内容单元格</td>
+						<td><a href="#">操作</a></td>
+					</tr>
+					<tr bgcolor = "#fefefe">
+						<td>总计</td>
+						<td colspan="2">1000</td>
+					</tr>
 				</table>
 			</div>
 		</div>
-
-
-		<div class="rightwrapper">
-			<table cellspacing="10px">
-			<tr><th colspan="2">这里以后是一个侧栏，这是侧栏的标题</th></tr>
-			<tr>
-				<td class="td-left">请输入邮箱地址</td>
-				<td class="input"><input type="text" value="这是一个文本输入框" /></td></tr>
-			<tr class="inputClue">
-				<td class="td-left">&nbsp;</td>
-				<td>邮箱地址请按要求输入</td></tr>
-			<tr>
-				<td class="td-left">请输入密码</td>
-				<td class="input"><input type="text" value="************" /></td></tr>
-			<tr>
-				<td class="td-left">请重复输入密码</td>
-				<td class="input"><input type="text" value="************" /></td></tr>
-			<tr  class="inputClue">
-				<td class="td-left">&nbsp;</td>
-				<td>密码请为6-16位英文数字</td></tr>
-			<tr>
-				<td class="td-left">性别</td>
-				<td>
-					<form class="check"><input type="radio" name="sex" value="male" /><span>男</span>
-					<input type="radio" name="sex" value="female" /><span>女</span>
-					</form></td></tr>
-			<tr>
-				<td class="td-left">城市
-				</td>
-				<td>
-					<form>
-						<select name="city">
-						<option selected="selected" value="北京">北京</option>
-						<option value="上海">上海</option>
-						<option value="广州">广州</option>
-						<option value="深圳">深圳</option>
-					</form>
-				</td></tr>
-			<tr>
-				<td class="td-left">爱好</td>
-				<td>
-					<form class="check">
-						<input type="checkbox" name="运动" /><span>运动</span>
-						<input type="checkbox" name="艺术" /><span>艺术</span>
-						<input type="checkbox" name="科学" /><span>科学</span>
-				</td></tr>
-			<tr>
-				<td class="td-left">个人描述</td>
-				<td  class="input">
-					<textarea rows="4" cols="1">
-					这是一个多行输入框，输入您的描述.
-					</textarea>
-				</td></tr>
-			</table>
-		</div>
-	</div>
-
-
-	<footer class="footer clear">
-		<section>版权所有©</section>
-	</footer>
-</body>
+		<div style="clear:both;"></div>
+		
+		<footer>
+			版权所有&copy; i can fly
+		</footer>
+	</body>
 </html>
